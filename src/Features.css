@@ -1,0 +1,23 @@
+.features {
+    margin-top: 80px;
+}
+
+.features h3 {
+    color: #4b5354;
+    font-family: 'josefin-regular', Arial, Helvetica, sans-serif;
+    font-size: 2.571em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0.36em;
+}
+
+.features .description {
+    text-align: center;
+    font-family: 'josefin-regular', Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: #7e8485;
+}
+
+.features .feature-list {
+    margin-top: 7em;
+}

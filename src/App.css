@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'josefin-semi';
+  src: url('/fonts/JosefinSans-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'josefin-regular';
+  src: url('/fonts/JosefinSans-Regular.ttf');
+}
+
+.button {
+  background: rgba(255, 255, 255, 0.0);
+  border: 2px solid #fff;
+  padding: 25px 50px;
+  font-family: 'josefin-regular', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  letter-spacing: 2px;
+  color: #fff;
+  font-weight: 700;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.button:hover {
+  background-color: rgba(255, 255, 255, 1.0);
+  color: #7A9EB1;
+}

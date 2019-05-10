@@ -1,10 +1,15 @@
 import React from 'react';
+import { Navbar } from './Navbar.js';
+import { Carousel } from './Carousel.js';
+import { Features } from './Features.js';
 import './App.css';
 
 function App() {
   return (
     <div>
-      Hello
+      <Navbar />
+      <Carousel />
+      <Features />
     </div>
   );
 }

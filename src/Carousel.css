@@ -1,0 +1,31 @@
+.product-carousel {
+    height: 600px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.product-carousel .carousel-indicators li {
+    margin: 10px;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.product-carousel .carousel .carousel-inner .item .carousel-caption {
+    text-align: left;
+    margin-left: 50px;
+    bottom: 0;
+    top: 100px;
+    width: 500px;
+    font-size: 2em;
+    font-family: 'josefin-regular', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-shadow: none;
+}
+
+.product-carousel .carousel .carousel-inner .item > img {
+    opacity: 0.9;
+}
