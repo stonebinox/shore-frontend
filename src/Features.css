@@ -21,3 +21,23 @@
 .features .feature-list {
     margin-top: 7em;
 }
+
+.features .feature-list .feature {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.features .feature-list .feature .icon {
+    background-color: #ADE1C4;
+    color: #fff;
+    width: 90px;
+    height: 90px;
+    border: 2px solid #ADE1C4;
+    -webkit-border-radius: 90px;
+    -moz-border-radius: 90px;
+    border-radius: 90px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 90px;
+    margin-right: 10px;
+}
