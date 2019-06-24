@@ -27,12 +27,21 @@
     margin: 0 auto;
 }
 
+.features .feature-list .feature h4 {
+    font-family: 'josefin-regular', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: #4b5354;
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
 .features .feature-list .feature .icon {
-    background-color: #ADE1C4;
+    background-color: #000;
     color: #fff;
     width: 90px;
     height: 90px;
-    border: 2px solid #ADE1C4;
+    border: 2px solid #000;
     -webkit-border-radius: 90px;
     -moz-border-radius: 90px;
     border-radius: 90px;
@@ -40,4 +49,41 @@
     font-size: 40px;
     line-height: 90px;
     margin-right: 10px;
+}
+
+.features .feature-list .feature .icon.leaf {
+    background-color: #ADE1C4;
+    border: 2px solid #ADE1C4;
+}
+
+.features .feature-list .feature .icon.hand {
+    background-color: #F5D3AF;
+    border: 2px solid #F5D3AF;
+}
+
+.features .feature-list .feature .icon.feather {
+    background-color: #B9B0DC;
+    border: 2px solid #B9B0DC;
+}
+
+.features .feature-list .feature .icon.packed {
+    background-color: #F3CFDD;
+    border: 2px solid #F3CFDD;
+}
+
+.features .feature-list .feature .icon.coins {
+    background-color: #9ED8E5;
+    border: 2px solid #9ED8E5;
+}
+
+.features .feature-list .feature .icon.dolly {
+    background-color: #FFB4B5;
+    border: 2px solid #FFB4B5;
+}
+
+.features .feature-list .feature p {
+    color: #7e8485;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
 }

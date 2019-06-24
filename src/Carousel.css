@@ -22,8 +22,14 @@
     font-family: 'josefin-regular', Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     line-height: 40px;
+    height: 230px;
+    padding: 20px;
     letter-spacing: 1px;
     text-shadow: none;
+    background-color: rgba(0, 0, 0, 0.4);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
 }
 
 .product-carousel .carousel .carousel-inner .item > img {

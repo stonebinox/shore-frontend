@@ -13,17 +13,33 @@ export class Carousel extends Component {
 
                     <div className="carousel-inner">
                         <div className="item active">
-                            <img src="/images/the-heart.jpg" alt="Chicago" style={{ width: "100%" }} />
-                            <div class="carousel-caption">
-                                Rejuvenating ingredients to heal the skin and keep it nourished.<br/><br/>
+                            <img src="/images/coffee.jpg" alt="Coffee" style={{ width: "100%" }} />
+                            <div className="carousel-caption">
+                                Rejuvenating ingredients to keep it nourished.<br/><br/>
                                 <button type="button" className="button">Discover more</button>
                             </div>
                         </div>
 
                         <div className="item">
-                            <img src="/images/milky-way-menthol.jpg" alt="Milky Way - Menthol" style={{ width: "100%" }} />
-                            <div class="carousel-caption">
+                            <img src="/images/goatmilk.jpg" alt="Vanilla" style={{ width: "100%" }} />
+                            <div className="carousel-caption">
                                 Pamper yourself with the best hand-crafted soap.<br/><br/>
+                                <button type="button" className="button">Discover more</button>                      
+                            </div>
+                        </div>
+
+                        <div className="item">
+                            <img src="/images/greentea-goatmilk.jpg" alt="Greentea" style={{ width: "100%" }} />
+                            <div className="carousel-caption">
+                                Heal dark spots and tanned skin naturally.<br/><br/>
+                                <button type="button" className="button">Discover more</button>                      
+                            </div>
+                        </div>
+
+                        <div className="item">
+                            <img src="/images/packaging.jpg" alt="Shore Packaging" style={{ width: "100%" }} />
+                            <div className="carousel-caption">
+                                Say goodbye to acne and oily skin.<br/><br/>
                                 <button type="button" className="button">Discover more</button>                      
                             </div>
                         </div>

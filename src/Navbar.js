@@ -7,7 +7,7 @@ export class Navbar extends Component {
             <nav className="navbar navbar-default">
                 <div className="container">
                     <div className="navbar-header">
-                        <img src="/shore-wide.png" alt="Shore Soaps" height="90" />
+                        <img src="/logo-2019.png" alt="Shore Soaps" height="90" />
                     </div>
                     <ul className="nav navbar-nav navbar-right">
                         <li className="active"><a href="#">HOME</a></li>
